@@ -1,0 +1,179 @@
+body {
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  text-align: center;
+}
+
+.header-container {
+  background-color: black;
+  z-index: 2;
+}
+
+h2 {
+  display: block;
+}
+
+h4 {
+  display: block;
+}
+
+div {display: block;
+}
+
+header img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+.logo img {
+  float: left;
+}
+
+header {
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  height: 69px;
+  align-items: center;
+  position: fixed;
+  background-color: black;
+  z-index:1;
+}
+
+nav {
+  float: right;
+  position: relative;
+  padding-top: 17px;
+}
+
+nav span {
+  padding: 20px 10px;
+  text-align: right;
+  }
+
+nav span a {
+  color: seashell;
+  align-items: center;
+}
+
+.logo span {
+  color: seashell;
+}
+
+.content-container {
+  display: flex;
+  height: 700px;
+  width: 100%;
+  justify-content: center;
+}
+
+.main {
+  background-image: url('images/img-mission-background.jpg');
+  position: absolute;
+  height: 700px;
+  width: 1200px;
+  display: block;
+  margin-left: 10px;
+  }
+
+.text {
+  text-align: center;
+  background-color: black;
+  margin-top: 25%;
+  padding: 1px;
+}
+
+.tea-container {
+  position: relative;
+  width: 1000px;
+  display: flex;
+  margin: auto;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  }
+
+.tea {
+  background-color: black;
+  width: 1000px;
+  margin: auto;
+  padding-top: 70px;
+}
+
+.item img {
+  height: 200px;
+  display: block;
+}
+
+.item {
+  padding: 10px;
+}
+
+.item span {
+  display: block;
+  padding: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.image {
+  background-image: url('images/img-locations-background.jpg');
+  padding-top: 20px;
+  position: absolute;
+  height: 500px;
+  width: 1200px;
+  display: block;
+}
+
+.container-locations{
+  display: flex;
+  height: 700px;
+  width: 100%;
+  justify-content: center;
+  padding-top: 70px;
+}
+
+.container-locations .flex-container {
+  margin: auto;
+  width: 1100px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flex-container .address {
+  padding-top: 5px;
+}
+
+.street {
+  background-color: black;
+  display: block;
+  flex-direction: column;
+  justify-content: center;
+  width: 300px;
+  margin: auto;
+  opacity: 1.0;
+  padding: 15px 20px;
+}
+
+.contact-container {
+  height: 200px;
+  display: flex;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+  background-color: black;
+  margin-top: 160px;
+}
+
+.information {
+  margin: auto;
+}
+
+footer {
+  text-align: left;
+}
